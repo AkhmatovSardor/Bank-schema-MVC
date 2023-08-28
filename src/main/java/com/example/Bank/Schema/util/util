@@ -1,0 +1,39 @@
+1)Payment  ->> Payment -Service +
+2)Borrower,Loan  ->> Borrower-Service +
+3)Branch,Customer  ->> Branch-Service +
+4)Account,transaction  ->> Account-Service +
+5)Banker,creditCard  ->> Banker-Service +
+6)cloud config +
+7)cloud config yml
+8)register +
+9)getaway +
+
+//@FieldDefaults(level = AccessLevel.PRIVATE)
+
+
+
+ Microservice Bank Service
+ 9 - service configuration,
+ cloud-configuration,
+  gateway,
+  service-registry.
+   Open-Feign -> FeignClient
+ JUnit,
+  Integration Test,
+   Dto Validation,
+    Universal Search,
+     Pagination.
+
+
+ MVC
+ Integration Test,
+  (Dto Validation),  +
+   JUnit, +
+   Universal Search, Pagination, +
+ Security on JWT  +
+  -> Tmux
+   Server deploy,
+
+ Time of Duration -> 1 oy. 8 - September.
+
+ get-all methodi delete bo'lgan accauntlarni xam olib chiqayabdi

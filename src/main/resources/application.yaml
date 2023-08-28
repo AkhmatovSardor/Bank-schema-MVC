@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: java
+    password: root
+    url: jdbc:postgresql://localhost:5432/bank_db
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+     ddl-auto: update
+server:
+  port: 1511
+secret:
+  key: qwertyuiopsdfghjklxcvbnmqwertyuioasdfghjklxcvbnmsdfghjklertyujkilertyjuikodfghjkbcjhbvkjdkhvbfdefghjkl
